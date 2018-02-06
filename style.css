@@ -1,19 +1,35 @@
-.center {
+.center, ul {
   text-align: center;
 }
 ul {
   list-style: none;
   padding: 0;
+  margin: 50px auto auto auto;
 }
 img {
-  display: inline;
   width: 200px;
-  height: 60px;
-  }
+}
+
+#headers {
+  margin: 10% auto auto auto;
+}
+
 #footer {
   width: 100%;
   border-top: solid 2px black;
   background-color: white;
   position: fixed;
   bottom: 0;
+  padding-top: 8px;
 }
+
+#menu-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#menu-btns {
+  margin: 50px 40% auto 40%;
+}
+
