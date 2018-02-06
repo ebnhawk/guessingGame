@@ -23,15 +23,30 @@ img {
   padding-top: 8px;
 }
 
-#menu-btns, .flex-container {
+#menu-btns, .flex-container, #guess-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #menu-btns {
-  margin: 50px 40% auto 40%;
+  margin: auto 40% auto 40%;
 }
 
+#guess-list {
+  margin: 50px 10%;
+}
 
+.guess {
+  border: solid 1px black;
+  border-radius: 15px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#input-parent {
+  margin: 20px auto auto auto;
+}
