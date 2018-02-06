@@ -23,7 +23,7 @@ img {
   padding-top: 8px;
 }
 
-#menu-btns {
+#menu-btns, .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -32,4 +32,6 @@ img {
 #menu-btns {
   margin: 50px 40% auto 40%;
 }
+
+
 
