@@ -1,3 +1,10 @@
+body {
+  background-color: black;
+}
+div {
+  color: black;
+}
+
 .center, ul {
   text-align: center;
 }
@@ -11,7 +18,7 @@ img {
 }
 
 #headers {
-  margin: 10% auto auto auto;
+  margin: 8% auto 5% auto;
 }
 
 #footer {
@@ -23,14 +30,18 @@ img {
   padding-top: 8px;
 }
 
-#menu-btns, .flex-container, #guess-list {
+.flex-container, #guess-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 #menu-btns {
-  margin: auto 40% auto 40%;
+  margin: auto;
+}
+
+.bottom-button {
+  margin: auto 30px;
 }
 
 #guess-list {
@@ -54,17 +65,22 @@ img {
 
 #player-input, #submit {
   border-radius: 50%;
-}  
+}
 
-#player-input{ 
+#player-input{
   border: solid 1px black;
-  width: 175px;
-  height: 175px;
+  width: 250px;
+  height: 250px;
   font-size: 75px;
+  position: relative;
+  left: 49px;
+  z-index: -1;
 }
 
 #submit {
-  height: 70px;
-  width: 70px;
-  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  position: relative;
+  top: 50px;
 }
