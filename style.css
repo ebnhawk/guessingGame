@@ -1,4 +1,7 @@
-
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
 div {
   color: black;
 }
@@ -13,10 +16,6 @@ ul {
 }
 img {
   width: 200px;
-}
-
-#headers {
-  margin: 8% auto 5% auto;
 }
 
 #footer {
@@ -81,4 +80,15 @@ img {
   font-size: 30px;
   position: relative;
   top: 50px;
+}
+
+#app {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 50px;
+  margin: 100px auto;
+}
+
+#headers {
+  font-family: 'Tangerine', cursive;
+  font-size: 112px;
 }
