@@ -75,7 +75,6 @@ img {
   font-size: 75px;
   position: relative;
   left: 49px;
-  z-index: -1;
   background-color: gold;
   padding: 20px auto;
 }
@@ -99,9 +98,9 @@ img {
 }
 
 #ahoy {
-  font-size: 112px;
+  font-size: 90px;
 }
 
 #intro {
-  font-size: 80px;
+  font-size: 70px;
 }
